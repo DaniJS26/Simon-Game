@@ -1,0 +1,80 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #011F3F;
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0 0 3rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.items {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.items ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.items li button {
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pressed {
+    background-color: grey;
+}
+
+.gameOver {
+    background-color: red;
+}
